@@ -1,0 +1,109 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.head {
+  font-size: 22px;
+}
+
+.head ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+.head li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  margin-top: 22px;
+  margin-bottom: 20px;
+  margin-right: 5px;
+  text-decoration: none;
+  text-align: justify;
+  float: right;
+}
+
+.head li a:hover {
+  background-color: #859f3d;
+}
+
+#join-us {
+  background-color: #859f3d;
+}
+.total {
+  width: 1132px;
+  margin: 10px auto;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.item {
+  text-align: center;
+  width: 32%; /* Ensures three items fit in a row */
+}
+.item img {
+  width: 100%;
+  height: auto;
+}
+.item .text {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #f6fcfd;
+}
+.pic img {
+  clip-path: circle();
+}
+.pic {
+  margin-top: 50px;
+}
+.text,
+a {
+  color: #859f3d;
+}
+.social {
+  margin-right: 5px;
+  margin-top: 500px;
+  text-align: right;
+  font-size: 15px;
+}
+#footer {
+  color: #f6fcdf;
+  text-align: center;
+}
+#follow {
+  margin-left: 940px;
+  font-size: 32px;
+  color: #859f3d;
+  margin-right: 30px;
+}
+.location {
+  margin-bottom: -600px;
+  text-align: left;
+  padding: 0px;
+}
+.location h2 {
+  margin-left: 15px;
+  margin-bottom: -17px;
+  font-size: 32px;
+  color: #859f3d;
+}
+.location p {
+  margin-left: 5px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: #f6fcdf;
+}
+.foot {
+  background-color: none;
+  margin-top: 100px;
+}
